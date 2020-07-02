@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  background: #191A1A;
+  color: white;
+
+}
+.query-head {
+  display: grid;
+  grid-template-columns: 2fr 4fr 4fr 1fr;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  border-top:  1px solid #ADADAD;
+}
+
+.grey-back {
+  background-color: #343332;
+  padding: 10px 0px;
+}
+
+.query-head__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 10px;
+
+}
+
+.full-table {
+  margin:20px;
+  border: 1px solid #ADADAD;
+  border-radius: 5px;
+}
+
+.header-title {
+  background-color: #343332;
+  padding: 10px 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.query-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 10px;
+
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+.flex__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header {
+  padding: 0px 10px;
+}
+
+.popup-item {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grey-color {
+  color: rgba(255,255,255,0.5) !important;
+}
+
+.mapboxgl-popup-content {
+  background-color: black !important;
+  color: white !important;
+}
+
+.mapboxgl-popup-close-button {
+  color: white !important;
+}
+
+.frame__demos {
+  padding: 15px 0px;
+  margin-right: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: orangered;
+}
+
+.control-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 320px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  padding: 12px 24px;
+  margin: 20px;
+  font-size: 13px;
+  line-height: 2;
+  color: #6b6b76;
+  text-transform: uppercase;
+  outline: none;
+}
